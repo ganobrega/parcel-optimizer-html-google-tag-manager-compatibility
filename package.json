@@ -1,5 +1,5 @@
 {
-  "name": "@parcel/transformer-html-google-tag-manager-compatibility",
+  "name": "@parcel/optimizer-html-google-tag-manager-compatibility",
   "version": "1.0.0",
   "description": "Parcel HTML transformer that ensures Google Tag Manager compatibility by converting ES6 module scripts (type=\"module\") to traditional scripts (type=\"text/javascript\")",
   "main": "index.js",
