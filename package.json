@@ -1,0 +1,32 @@
+{
+  "name": "@parcel/transformer-html-google-tag-manager-compatibility",
+  "version": "1.0.0",
+  "description": "Parcel HTML transformer that ensures Google Tag Manager compatibility by converting ES6 module scripts (type=\"module\") to traditional scripts (type=\"text/javascript\")",
+  "main": "index.js",
+  "keywords": [
+    "parcel",
+    "transformer",
+    "html",
+    "google-tag-manager",
+    "gtm",
+    "compatibility",
+    "es6-modules",
+    "script-type"
+  ],
+  "author": "Gabriel Nobrega",
+  "license": "MIT",
+  "peerDependencies": {
+    "@parcel/plugin": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ganobrega/parcel-transformer-html-google-tag-manager-compatibility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ganobrega/parcel-transformer-html-google-tag-manager-compatibility/issues"
+  },
+  "homepage": "https://github.com/ganobrega/parcel-transformer-html-google-tag-manager-compatibility#readme"
+}
