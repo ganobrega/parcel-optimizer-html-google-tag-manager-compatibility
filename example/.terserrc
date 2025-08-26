@@ -1,0 +1,11 @@
+{
+  "compress": {
+    "drop_console": false,
+    "drop_debugger": true
+  },
+  "mangle": true,
+  "format": {
+    "comments": false
+  },
+  "sourceMap": false
+}

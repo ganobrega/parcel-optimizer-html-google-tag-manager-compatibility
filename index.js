@@ -11,8 +11,6 @@ module.exports = new Optimizer({
       html = html.replace(/type="module"/g, 'type="text/javascript"');
       html = html.replace(/type='module'/g, "type='text/javascript'");
       
-      console.log('🔧 Plugin Parcel: Script type modificado para compatibilidade com Google Tag Manager');
-      
       return {
         contents: html,
         map
