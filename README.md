@@ -35,6 +35,20 @@ For a complete Parcel configuration with all optimizers:
 }
 ```
 
+### Scaffold example, see the `example` directory in the repository.
+
+Use the following command to create a new project:
+
+```bash
+npx gitpick ganobrega/parcel-optimizer-html-google-tag-manager-compatibility/tree/main/example gtm-tag-example
+cd gtm-tag-example
+npm install
+npm start
+
+# For production use
+npm build
+```
+
 ## Why?
 
 Google Tag Manager may have compatibility issues with ES6 module scripts. This optimizer automatically converts them to traditional scripts for seamless GTM integration.
