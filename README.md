@@ -52,3 +52,4 @@ npm build
 ## Why?
 
 Google Tag Manager may have compatibility issues with ES6 module scripts. This optimizer automatically converts them to traditional scripts for seamless GTM integration.
+
