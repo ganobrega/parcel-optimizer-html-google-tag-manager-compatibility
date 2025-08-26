@@ -23,10 +23,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ganobrega/parcel-transformer-html-google-tag-manager-compatibility.git"
+    "url": "https://github.com/ganobrega/parcel-optimizer-html-google-tag-manager-compatibility.git"
   },
   "bugs": {
-    "url": "https://github.com/ganobrega/parcel-transformer-html-google-tag-manager-compatibility/issues"
+    "url": "https://github.com/ganobrega/parcel-optimizer-html-google-tag-manager-compatibility/issues"
   },
-  "homepage": "https://github.com/ganobrega/parcel-transformer-html-google-tag-manager-compatibility#readme"
+  "homepage": "https://github.com/ganobrega/parcel-optimizer-html-google-tag-manager-compatibility#readme"
 }
