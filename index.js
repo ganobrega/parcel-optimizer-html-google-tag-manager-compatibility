@@ -6,10 +6,22 @@ module.exports = new Optimizer({
     if (bundle.type === 'html') {
       let html = contents.toString();
       
-      // Modifica type="module" para type="text/javascript" para compatibilidade com Google Tag Manager
       const originalHtml = html;
+
+      // Modifica type="module" para type="text/javascript" para compatibilidade com Google Tag Manager
       html = html.replace(/type="module"/g, 'type="text/javascript"');
       html = html.replace(/type='module'/g, "type='text/javascript'");
+
+      // Remove tags <html>, <head> e <body> para evitar problemas de copiar e colar no Google Tag Manager
+      html = html.replace('/<html(.*?)>/', '');
+      html = html.replace('/<\/html>/', '');
+
+      html = html.replace('/<head(.*?)>/', '');
+      html = html.replace('/<\/head>/', '');
+
+      html = html.replace('/<body(.*?)>/', '');
+      html = html.replace('/<\/body>/', '');
+
       
       return {
         contents: html,
