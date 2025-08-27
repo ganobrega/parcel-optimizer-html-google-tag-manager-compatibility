@@ -1,6 +1,6 @@
 {
   "name": "parcel-optimizer-html-gtm-compatibility",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Parcel HTML transformer that ensures Google Tag Manager compatibility by converting ES6 module scripts (type=\"module\") to traditional scripts (type=\"text/javascript\")",
   "main": "index.js",
   "keywords": [
