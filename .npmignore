@@ -42,3 +42,6 @@ example/
 # Lock files
 package-lock.json
 yarn.lock
+
+# Github Actions workflow files
+.github/
