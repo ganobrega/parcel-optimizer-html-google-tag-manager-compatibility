@@ -13,14 +13,14 @@ module.exports = new Optimizer({
       html = html.replace(/type='module'/g, "type='text/javascript'");
 
       // Remove tags <html>, <head> e <body> para evitar problemas de copiar e colar no Google Tag Manager
-      html = html.replace('/<html(.*?)>/', '');
-      html = html.replace('/<\/html>/', '');
+      html = html.replace(/<html.*?>/gi, '');
+      html = html.replace(/<\/html>/gi, '');
 
-      html = html.replace('/<head(.*?)>/', '');
-      html = html.replace('/<\/head>/', '');
+      html = html.replace(/<head.*?>/gi, '');
+      html = html.replace(/<\/head>/gi, '');
 
-      html = html.replace('/<body(.*?)>/', '');
-      html = html.replace('/<\/body>/', '');
+      html = html.replace(/<body.*?>/gi, '');
+      html = html.replace(/<\/body>/gi, '');
 
       
       return {
